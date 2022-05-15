@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 
 const AllProduct = ({ product }) => {
@@ -13,7 +12,6 @@ const AllProduct = ({ product }) => {
                <h6>Quantity :{quantity}</h6>
                <h6>Supplier Name : {supplier}</h6>
                <Card.Text>{description}</Card.Text>
-
                <Button variant="primary">Order</Button>
             </Card.Body>
          </Card>
