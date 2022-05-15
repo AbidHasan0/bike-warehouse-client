@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useProducts from '../hooks/useProducts';
 import Product from './Product';
 
 const Products = () => {
-   const [products, setProducts] = useState([]);
-   useEffect(() => {
-      const url = 'products.json';
-      fetch(url)
-         .then(res => res.json())
-         .then(data => setProducts(data))
-   }, [])
+   const [products] = useProducts();
    return (
       <div>
          <h1 className='text-center text-primary text-xl my-3 font-bold'>Our Products</h1>
