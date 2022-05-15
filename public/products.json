@@ -1,0 +1,110 @@
+[
+   {
+      "id": 1,
+      "name": "Honda",
+      "price": "2000",
+      "quantity": "50",
+      "supplier": "Shihab",
+      "description": "Honda remains committed to meeting the expectations of customers worldwide and opening up new frontiers for the motorcycle market.",
+      "img": "https://i.ibb.co/Dtk32pH/honda1.jpg"
+   },
+   {
+      "id": 2,
+      "name": "Pulser",
+      "price": "1000",
+      "quantity": "70",
+      "supplier": "Abdullah",
+      "description": " The Pulsar motorcycle is a perfect combination of style and performance.",
+      "img": "https://i.ibb.co/0yN9Ny3/honda2.jpg"
+   },
+   {
+      "id": 3,
+      "name": "Discover",
+      "price": "700",
+      "quantity": "60",
+      "supplier": "Kajal",
+      "description": "Its awesome in handling. Awesome mileage. A little maintenance is required. If you are able to give a little attention towards this bike.",
+      "img": "https://i.ibb.co/9WJ83MX/honda3.jpg"
+   },
+   {
+      "id": 4,
+      "name": "Apache",
+      "price": "800",
+      "quantity": "30",
+      "supplier": "Koushik",
+      "description": "All said and done, the TVS Apache RTR 160 4V is a great city bike that you can take on long rides as well. ",
+      "img": "https://i.ibb.co/SNKpWyp/honda4.jpg"
+   },
+   {
+      "id": 5,
+      "name": "Gixer",
+      "price": "1200",
+      "quantity": "90",
+      "supplier": "Shams",
+      "description": "This bike is driving comfortable and smooth sound. Bikes look very good and break system also very good fi modal.",
+      "img": "https://i.ibb.co/zb1Mp2g/honda5.png"
+   },
+   {
+      "id": 6,
+      "name": "R15",
+      "price": "1400",
+      "quantity": "100",
+      "supplier": "Riadul",
+      "description": "At the first look itself the R15 resembles the flagship superbike of Yamaha, the R1. Being the youngest sibling of the R1.",
+      "img": "https://i.ibb.co/BCCC0Vr/honda6.jpg"
+   },
+   {
+      "id": 7,
+      "name": "Hunk",
+      "price": "900",
+      "quantity": "150",
+      "supplier": "Mishu",
+      "description": "And very satisfied by this bike. I have had an amazing experience with my hero hunk that i have driven for over 2 years now 25k km.",
+      "img": "https://i.ibb.co/8DmQSCW/honda7.jpg"
+   },
+   {
+      "id": 8,
+      "name": "Royal Enfield",
+      "price": "2500",
+      "quantity": "80",
+      "supplier": "Siam",
+      "description": "The Royal Enfield boasts of an all-metal construction with very less number of plastic parts.",
+      "img": "https://i.ibb.co/9nN8mZw/honda8.jpg"
+   },
+   {
+      "id": 9,
+      "name": "MT 15",
+      "price": "1300",
+      "quantity": "110",
+      "supplier": "Zubayer",
+      "description": " Royal Enfield Bullet 350 and Yamaha MT-15 Version 2.0 on some really important factors like Mileage , performance, comfort, safety etc. and have given their personal opinions about these bikes.",
+      "img": "https://i.ibb.co/XyHdtYn/honda9.jpg"
+   },
+   {
+      "id": 10,
+      "name": "KTM",
+      "price": "1600",
+      "quantity": "130",
+      "supplier": "Labib",
+      "description": "A Royal Enfield gets that old-world charm with its retro-styled looks and a thumpy single-cylinder motor to boot..",
+      "img": "https://i.ibb.co/G01hBXS/honda10.jpg"
+   },
+   {
+      "id": 11,
+      "name": "BMW",
+      "price": "3000",
+      "quantity": "100",
+      "supplier": "Anik",
+      "description": "Are BMW motorbikes good?BMW motorcycles are worth the money because of their high-tech features, comfortable riding ergonomics, sleek designs, solid build quality and sporty handling .",
+      "img": "https://i.ibb.co/9ggdf6h/honda11.jpg"
+   },
+   {
+      "id": 12,
+      "name": "Suzuki",
+      "price": "800",
+      "quantity": "75",
+      "supplier": "Noman",
+      "description": "uzuki motorcycles are rated highly in consumer-based reports regarding reliability. They are also one of the more affordable bikes to own and maintain.",
+      "img": "https://i.ibb.co/wwdjJJb/honda12.jpg"
+   }
+]
