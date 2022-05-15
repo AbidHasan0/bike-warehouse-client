@@ -10,7 +10,7 @@ const Products = () => {
          <div className='row g-5 my-4 container mx-auto '>
             {
                products.slice(0, 6).map(product => <Product
-                  key={product.id}
+                  key={product._id}
                   product={product}
                ></Product>)
             }
