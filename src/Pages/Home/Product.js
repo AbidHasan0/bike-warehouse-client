@@ -17,9 +17,9 @@ const Product = ({ product }) => {
                <h6>Price :${price}</h6>
                <h6>Quantity :{quantity}</h6>
                <h6>Supplier Name : {supplier}</h6>
-               <Card.Text>Detaile :{description}</Card.Text>
+               <Card.Text> <span className='fw-bold'>Description</span> :{description}</Card.Text>
 
-               <Button onClick={() => handleOrder(_id)} variant="primary">Order</Button>
+               <Button className='w-75 mx-auto d-block rounded-pill' onClick={() => handleOrder(_id)} variant="primary">Order</Button>
             </Card.Body>
          </Card>
       </div>
