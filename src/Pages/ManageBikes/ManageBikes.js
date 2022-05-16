@@ -1,8 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import useProducts from '../hooks/useProducts';
 
 const ManageBikes = () => {
+   const navigate = useNavigate();
    const [bikes, setBikes] = useProducts();
-   console.log(bikes);
+   const handleAddBikeBtn = () => {
+      navigate('/addbike');
+   }
    const handleRemoveBtn = id => {
       const confirmation = window.confirm('Are you sure?');
       if (confirmation) {
@@ -39,8 +43,10 @@ const ManageBikes = () => {
                      </div>
                   </div>
                </div>
+
             </div>)
          }
+         <button onClick={handleAddBikeBtn} className='btn btn-primary d-block w-25 mx-auto'>Add Bike</button>
       </div>
 
 

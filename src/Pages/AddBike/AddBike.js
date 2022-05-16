@@ -30,7 +30,7 @@ const AddBike = () => {
             <input className='my-2' placeholder='Quantity' {...register("quantity")} />
             <input className='my-2' placeholder='Price' type="number" {...register("price")} />
             <input className='my-2' placeholder='Supplier Name' {...register("supplier")} />
-            <input className='btn btn-primary w-50 mx-auto' type="submit" value='Add Product' />
+            <input className='btn btn-primary w-50 mx-auto' type="submit" value='Add Bike' />
          </form>
 
       </div>
