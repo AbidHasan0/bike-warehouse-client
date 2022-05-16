@@ -1,8 +1,6 @@
-
 import useProducts from '../hooks/useProducts';
 
 const ManageBikes = () => {
-   // const { bikesId } = useParams();
    const [bikes, setBikes] = useProducts();
    console.log(bikes);
    const handleRemoveBtn = id => {

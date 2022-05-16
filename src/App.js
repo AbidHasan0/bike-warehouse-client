@@ -10,6 +10,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Login/Register';
 import RequireAuth from './Pages/Login/RequireAuth';
 import ManageBikes from './Pages/ManageBikes/ManageBikes';
+import Footer from './Pages/Shared/Footer';
 import NotFound from './Pages/Shared/NotFound';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
