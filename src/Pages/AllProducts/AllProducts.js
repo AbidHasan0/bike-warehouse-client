@@ -8,7 +8,7 @@ const AllProducts = () => {
       <div className='row g-5 my-4 container mx-auto'>
          {
             products.map(product => <AllProduct
-               key={product.id}
+               key={product._id}
                product={product}
             ></AllProduct>)
          }

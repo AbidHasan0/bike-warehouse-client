@@ -9,6 +9,7 @@ import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Login/Register';
 import RequireAuth from './Pages/Login/RequireAuth';
+import ManageBikes from './Pages/ManageBikes/ManageBikes';
 import NotFound from './Pages/Shared/NotFound';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/products' element={<RequireAuth><AllProducts></AllProducts></RequireAuth>}></Route>
         <Route path='/bikeDetails/:bikesId' element={<RequireAuth><BikeDetails></BikeDetails></RequireAuth>}></Route>
         <Route path='/addbike' element={<RequireAuth><AddBike></AddBike></RequireAuth>}></Route>
+        <Route path='/managebikes' element={<RequireAuth><ManageBikes></ManageBikes></RequireAuth>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>

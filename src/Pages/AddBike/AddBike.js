@@ -2,9 +2,8 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 const AddBike = () => {
    const { register, handleSubmit } = useForm();
-
    const onSubmit = data => {
-      const url = `https://bikewarehouse.herokuapp.com/addbike/`;
+      const url = `https://bikewarehouse.herokuapp.com/bikes/`;
       fetch(url, {
          method: 'POST',
          headers: {
@@ -14,10 +13,10 @@ const AddBike = () => {
       })
          .then(res => res.json())
          .then(result => {
-
-            console.log(result)
-         });
-   }
+            console.log(result);
+         })
+      console.log(data)
+   };
 
 
 
